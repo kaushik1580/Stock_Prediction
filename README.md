@@ -15,6 +15,8 @@ C parameter is known as the regularization parameter; it determines whether the 
 
 The recent stock prediction algorithm doesn’t give the proper accurate result and the time complexity is high. The problem which I am attempting to solve is an NP-hard problem because the stock market prediction cannot be made in a deterministic manner and also cannot be done in polynomial time. The existing prediction systems also not consider the outlier situations (the situation of out of bound or extreme changes, like the Great Depression of US (1931)). I used SVR (Support Vector Regression) to solve the current problem. 
 
+### Conclusion:
+
 Using Grid Serach I find the best parameter and used linear kernel with C=100.
       - Mean Absolute Error: 1.0789042003701774
       - Mean Square Error: 8.08707384303651
@@ -22,7 +24,18 @@ Using Grid Serach I find the best parameter and used linear kernel with C=100.
 I compared through changing the kernel, using rbf(Radial Based Function) kernel having 
       - Mean Absolute Error: 1.1792203284126659
       - Mean Square Error: 17.41510645580223
-### Conclusion:
+
+- Linear
+
+![1](https://user-images.githubusercontent.com/37845653/77755005-6574bd00-7052-11ea-9eff-5bbf8c3d91fb.JPG)
+![2](https://user-images.githubusercontent.com/37845653/77755006-66a5ea00-7052-11ea-9a1d-fb010cf4020d.JPG)
+![3](https://user-images.githubusercontent.com/37845653/77754993-60b00900-7052-11ea-91a5-fb470ea56edb.JPG)
+
+- RBF
+
+![4](https://user-images.githubusercontent.com/37845653/77754997-63126300-7052-11ea-99ca-163aa49b268b.JPG)
+![5](https://user-images.githubusercontent.com/37845653/77755001-64439000-7052-11ea-8a64-45d86dce3cdc.JPG)
+
 
 Linear Kernel is better than rbf kernel from the above result.
 
