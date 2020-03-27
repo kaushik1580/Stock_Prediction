@@ -18,10 +18,12 @@ The recent stock prediction algorithm doesn’t give the proper accurate result 
 ### Conclusion:
 
 Using Grid Serach I find the best parameter and used linear kernel with C=100.
+      
       - Mean Absolute Error: 1.0789042003701774
       - Mean Square Error: 8.08707384303651
                    
 I compared through changing the kernel, using rbf(Radial Based Function) kernel having 
+      
       - Mean Absolute Error: 1.1792203284126659
       - Mean Square Error: 17.41510645580223
 
